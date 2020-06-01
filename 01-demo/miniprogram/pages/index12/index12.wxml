@@ -1,0 +1,11 @@
+<!--pages/index12/index12.wxml-->
+<!--  保留当前页（能够返回），跳转到页面内的某页，但不能跳转到tabbar页面-->
+<navigator url="../index11/index11" open-type="navigate">跳转到轮播页，能返回</navigator>
+<!-- 关闭当前页（不能返回），跳转到页面内的某页，但不能跳转到tabbar页面 -->
+<navigator url="../index11/index11" open-type="redirect">跳转到轮播页，不能返回</navigator>
+<!-- 跳转到tabbar页面，并关闭其他所有非tabbar页面 -->
+<navigator url="../userConsole/userConsole" open-type="switchTab">跳转到tabbar页面，关闭其他所有非tabbar页面</navigator>
+<!-- 关闭所有页面，打开到应用内的某个页面 -->
+<navigator url="../userConsole/userConsole" open-type="reLaunch">关闭所有页面，打开到应用内的某个页面</navigator>
+<!-- 关闭当前页面，返回上一页或多级页面，可通过getCurrentPage()获取当前的页面栈，决定需要返回几层 -->
+<navigator url="../index11/index11" open-type="navigateBack">关闭当前页面，返回上一页或多级页面</navigator>

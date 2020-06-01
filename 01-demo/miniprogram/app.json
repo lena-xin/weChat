@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index13/index13",
+    "pages/index12/index12",
+    "pages/index11/index11",
+    "pages/index10/index10",
+    "pages/index9/index9",
+    "pages/index8/index8",
+    "pages/index7/index7",
+    "pages/index6/index6",
+    "pages/index5/index5",
+    "pages/index4/index4",
+    "pages/index3/index3",
+    "pages/index2/index2",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room"
+  ],
+  "window": {
+    "backgroundColor": "#000000",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "导航栏标题文字内容",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "selectedIconPath": "icon/index_active.jpg",
+      "iconPath": "icon/index.jpg"
+    },
+    {
+      "pagePath": "pages/userConsole/userConsole",
+      "text": "用户",
+      "iconPath": "icon/user.jpg",
+      "selectedIconPath": "icon/user_active.jpg"
+    }
+  ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

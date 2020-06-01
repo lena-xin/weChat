@@ -1,0 +1,4 @@
+<!--pages/index10/index10.wxml-->
+<view>
+  <image src="../../icon/user.jpg" mode="widthFix"></image>
+</view>

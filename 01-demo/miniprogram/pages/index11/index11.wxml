@@ -1,0 +1,10 @@
+<!--pages/index11/index11.wxml-->
+<view>
+  <swiper autoplay interval="3000" indicator-dots indicator-color="#0078d7" indicator-active-color="#eb2705" circular>
+    <swiper-item><image src="../../swiperImg/1.jpg"></image></swiper-item>
+    <swiper-item><image src="../../swiperImg/2.jpg"></image></swiper-item>
+    <swiper-item><image src="../../swiperImg/3.jpg"></image></swiper-item>
+    <swiper-item><image src="../../swiperImg/4.jpg"></image></swiper-item>
+    <swiper-item><image src="../../swiperImg/5.jpg"></image></swiper-item>
+  </swiper>
+</view>

@@ -1,0 +1,47 @@
+<!-- Swiper 组件的使用 轮播图-->
+<import src="../post-item-template/post-item-template.wxml" />
+<view>
+  <swiper indicator-dots="{{true}}" indicator-color="yellow" indicator-active-color="red" autoplay="{{true}}" interval="2000" circular="{{true}}">
+    <swiper-item> <image src="/image/xiaolong.jpg"></image> </swiper-item>
+    <swiper-item> <image src="/image/crab.png"></image> </swiper-item>
+    <swiper-item> <image src="/image/vr.png"></image> </swiper-item>
+  </swiper>
+</view>
+<block wx:for="{{postsKeys}}" wx:for-item="item">
+  <!-- <view class="post-container" > -->
+    <!-- <view class="post-author-data">
+      <image class="post-author" src="{{item.author_img}}"></image>
+      <text class="post-data"> {{item.date}}</text>
+    </view>
+    <text class="post-title">{{item.title}}</text>
+    <image class="post-image" src="{{item.post_img}}"></image>
+    <text class="post-content">{{item.content}}</text>
+    <view class="post-like">
+      <image class="post-like-img" src="/icon/chat.png"></image>
+      <text class="post-like-text">{{item.view_num}}</text>
+      <image class="post-like-img" src="/icon/chat1.png"></image>
+      <text class="post-like-text">{{item.collect_num}}</text>
+    </view> -->
+    <!-- template 模板技术的使用 -->
+    <view bindtap="onPostTap" data-postId="{{item.postId}}">
+      <template is="postItem" data="{{...item}}" />
+    </view>
+  <!-- </view> -->
+</block>
+
+<view class="post-container" >
+  <view class="post-author-data">
+    <image class="post-author" src="{{imgSrc[0]}}"></image>
+    <text class="post-data"> {{date}}</text>
+  </view>
+  <text class="post-title">{{title[1]}}</text>
+  <image class="post-image" src="/image/crab.png"></image>
+  <text class="post-content">ECMAScript 6（简称ES6）是于2015年6月正式发布的JavaScript语言的标准，正式名为ECMAScript 2015（ES2015）。它的目标是使得JavaScript语言可以用来编写复杂的大型应用程序，成为企业级开发语言。另外，一些情况下ES6也泛指ES2015及之后的新增特性，虽然之后的版本应当称为ES7、ES8等。</text>
+  <view class="post-like">
+    <image class="post-like-img" src="/icon/chat.png"></image>
+    <text class="post-like-text">99</text>
+    <image class="post-like-img" src="/icon/chat1.png"></image>
+    <text class="post-like-text">112</text>
+  </view>
+</view>
+

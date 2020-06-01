@@ -1,0 +1,2 @@
+<!--pages/index13/index13.wxml-->
+<video src="../../video/1.mp4" controls duration="60" show-fullscreen-btn></video>

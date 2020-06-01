@@ -1,0 +1,11 @@
+<!--pages/index9/index9.wxml-->
+<view hover-class="hover-class">
+  index9 hover-class
+</view>
+<view>
+  <text selectable="{{true}}">index9 text</text>
+</view>
+<view>
+  <text decode="{{true}}">你&nbsp;好</text>
+</view>
+

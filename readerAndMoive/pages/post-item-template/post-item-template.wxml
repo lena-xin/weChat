@@ -1,0 +1,18 @@
+<template name="postItem">
+<view class="post-container">
+  <view class="post-author-data" >
+      <image class="post-author" src="{{author_img}}"></image>
+      <!-- <text class="post-data"> {{item.date}}</text> item可以缺省 -->
+      <text class="post-data"> {{date}}</text>
+    </view>
+    <text class="post-title">{{title}}</text>
+    <image class="post-image" src="{{post_img}}"></image>
+    <text class="post-content">{{content}}</text>
+    <view class="post-like">
+      <image class="post-like-img" src="/icon/chat.png"></image>
+      <text class="post-like-text">{{view_num}}</text>
+      <image class="post-like-img" src="/icon/chat1.png"></image>
+      <text class="post-like-text">{{collect_num}}</text>
+    </view>
+  </view>
+</template>

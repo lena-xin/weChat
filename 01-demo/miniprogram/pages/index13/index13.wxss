@@ -1,0 +1,4 @@
+/* pages/index13/index13.wxss */
+video{
+  width: 100%;
+}

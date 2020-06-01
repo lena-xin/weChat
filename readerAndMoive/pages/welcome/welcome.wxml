@@ -1,0 +1,16 @@
+<!--pages/welcome/welcome.wxml-->
+<!-- wxml用于编写小程序的骨架 -->
+<view class="container">
+  <!-- 采用style 指定样式 -->
+  <!-- <image style="width:200rpx;height:200rpx" src="/image/4.png"></image> -->
+  <!-- 采用wxss 指定样式 -->
+  <image class="user-avater" src="/image/4.png"></image>
+  <!-- text 标签可以嵌套， 可以解析转移字符-->
+  <text class="user-name" selectable="{{true}}"><text style="color:red">余生\t很长</text>，切莫慌张</text>
+  <view class="moto-container" bindtap="onTap">
+  <!--  bindtap 冒泡事件，同时触发子控件和容器-->
+    <!-- <text class="moto" bindtap="onTextTap">开启小程序之旅</text> -->
+  <!--  catch 可以只触发子控件-->
+    <text class="moto">开启小程序之旅</text>
+  </view>
+</view>

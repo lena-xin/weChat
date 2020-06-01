@@ -1,0 +1,12 @@
+<view>
+  <checkbox checked="{{isChecked?true:false}}">篮球</checkbox> 
+</view>
+<view>
+  <checkbox checked="{{isChecked?true:false}}">足球</checkbox>
+</view>
+<view>
+{{num1+num2}} || {{string1+string2}}
+</view>
+<view>
+   <checkbox checked="{{condition>30}}">排球</checkbox> 
+</view>

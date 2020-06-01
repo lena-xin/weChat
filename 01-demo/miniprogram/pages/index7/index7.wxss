@@ -1,0 +1,3 @@
+/* pages/index7/index7.wxss */
+/* 样式文件导入*/
+@import "../../styles/lg_box.wxss";

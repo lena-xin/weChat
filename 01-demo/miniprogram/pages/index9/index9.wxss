@@ -1,0 +1,5 @@
+/* pages/index9/index9.wxss */
+.hover-class{
+  background-color: brown;
+  opacity: .5;
+}
